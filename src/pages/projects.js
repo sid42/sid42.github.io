@@ -11,7 +11,7 @@ const IndexPage = () => (
     <h1>Projects</h1>
     <hr style = {{ background : "linear-gradient(to right, pink, purple)", height : "5px", width: "100%"}}/>
     
-    <p>I'll be updating this page soon but for now you check out my <a style = {{ 
+    <p>I'll be updating this page soon but for now you can check out my <a style = {{ 
       textDecoration : 'none',
       color : 'black',
       fontWeight : 'bold',
