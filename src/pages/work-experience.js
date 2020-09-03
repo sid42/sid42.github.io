@@ -10,9 +10,9 @@ import { ImLocation } from "react-icons/im"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Work Experience" />
     <h1>Work Experience</h1>
-    <hr style = {{ background : "linear-gradient(to right, turquoise, darkblue)", height : "5px", width: "100%"}}/>
+    <hr class='we-div' style = {{ background : "linear-gradient(to right, turquoise, darkblue)", height : "5px", width: "100%"}}/>
     <div>
       <div class="flex-container">
           <div class="flex-item-left">
@@ -20,9 +20,12 @@ const IndexPage = () => (
                     maxWidth : '40%', 
                     }}/>
               <div class="weMetaData">
-                <p style = {{ paddingBottom : '0.4rem', fontWeight : 'bold'}}>DBRS Morningstar</p>
-                <span><BsFillPersonFill style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Software Engineer Intern</p></span>
+                <span><p style = {{ paddingBottom : '0rem', fontWeight : 'bold'}}>DBRS Morningstar </p></span>
+                <br/>
+                <span><BsFillPersonFill style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Software Engineer Intern </p></span>
+                <br/>
                 <span><ImLocation style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Toronto, ON</p></span>
+                <br/>
                 <span><BsCalendar style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>May '19 - August '19</p></span>
               </div>
           </div>
@@ -59,9 +62,12 @@ const IndexPage = () => (
                     maxWidth : '40%', 
                     }}/>
               <div class="weMetaData">
-                <p style = {{ paddingBottom : '0.4rem',  fontWeight : 'bold'}}>Waterloop Design Team</p>
+                <span><p style = {{ paddingBottom : '0rem',  fontWeight : 'bold'}}>Waterloop Design Team</p></span>
+                <br/>
                 <span><BsFillPersonFill style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Server Systems Developer</p></span>
+                <br/>
                 <span><ImLocation style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Waterloo, ON</p></span>
+                <br/>
                 <span><BsCalendar style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>January '19 - April '19</p></span>
               </div>
           </div>
@@ -93,9 +99,12 @@ const IndexPage = () => (
                     maxWidth : '40%', 
                     }}/>
               <div class="weMetaData">
-                <p style = {{ paddingBottom : '0.4rem', fontWeight : 'bold'}}>Horiba Test Automation</p>
+                <span><p style = {{ paddingBottom : '0.4rem', fontWeight : 'bold'}}>Horiba Test Automation</p></span>
+                <br/>
                 <span><BsFillPersonFill style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Software Developer</p></span>
+                <br/>
                 <span><ImLocation style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Burlington, ON</p></span>
+                <br/>
                 <span><BsCalendar style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Sept '18 - December '18</p></span>
               </div>
           </div>
@@ -126,9 +135,12 @@ const IndexPage = () => (
                     maxWidth : '40%', 
                     }}/>
               <div class="weMetaData">
-                <p style = {{ paddingBottom : '0.4rem', fontWeight : 'bold'}}>Bronte College</p>
+                <span><p style = {{ paddingBottom : '0.4rem', fontWeight : 'bold'}}>Bronte College</p></span>
+                <br/>
                 <span><BsFillPersonFill style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Software Developer</p></span>
+                <br/>
                 <span><ImLocation style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>Mississauga, ON</p></span>
+                <br/>
                 <span><BsCalendar style ={{display:'inline-block'}} size={14}/> <p style ={{display:'inline-block'}}>January '18 - April '18</p></span>
               </div>
           </div>

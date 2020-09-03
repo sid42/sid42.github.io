@@ -31,6 +31,40 @@
     margin-bottom : 0.5rem;
 }
 
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  
+  span{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .we-div{
+    text-align: right;
+  }
+
+  .flex-item-left{
+    width: 100%;
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+    padding: 2.2rem 2rem 0 2rem;
+    margin-bottom: 0;
+  }
+
+  .flex-item-right{
+    width: 100%;
+    padding: 1rem 0 0 0;
+  }
+}
+
 @font-face{
     font-family: h1font;
     src: url(../fonts/SFProDisplay-HeavyItalic.ttf)

@@ -670,16 +670,20 @@ pre tt:after {
   /* Control the left side */
   .left {
     width: 100%;
-    left: 0;
-    padding : 20rem;
-    background-color: red;
+    padding : 5rem;
+    background-color: white;
+    text-align: center;
   }
   
   /* Control the right side */
   .right {
-    margin : 50px;
-    width: 65%;
-    right: 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 5.8rem;
+    background-color: white;
+  }
+
+  .index-class{
   }
   
 }
