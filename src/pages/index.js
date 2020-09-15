@@ -20,7 +20,7 @@ const IndexPage = () => (
 
       <p>Over the last year, I’ve picked up invaluable technical and soft skills through internships and worked on projects related to computer vision 
         and machine learning. I’ve been an active follower of all things AI and if you wish to discuss Elon Musk’s ominous take on the future of artificial intelligence, 
-        you can contact me here. </p>
+        you can contact me <a target='_blank' style = {{ textDecoration: 'underline', color:'black'}} alt='Mail' href='mailto:s34bhatt@uwaterloo.ca'>here</a>. </p>
     </div>
   </Layout>
 )
