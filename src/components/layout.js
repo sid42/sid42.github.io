@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
               <br/>
             </div>
           </Link>
-          <Link to="/projects" style={{ color: 'black', textDecoration:'none'}}><p style = {{ fontFamily : 'h2font', fontWeight : 'bold'}}>Projects</p></Link>
+          {/* <Link to="/projects" style={{ color: 'black', textDecoration:'none'}}><p style = {{ fontFamily : 'h2font', fontWeight : 'bold'}}>Projects</p></Link> */}
           <Link to="/work-experience" style={{ color: 'black', textDecoration:'none'}}><p style = {{ fontFamily : 'h2font', fontWeight : 'bold'}}>Work Experience</p></Link>
           <a style={{color: 'black', textDecoration:'none'}} href='../../resume.pdf' target='_blank'><p style = {{ fontFamily : 'h2font', fontWeight : 'bold'}}>Resume</p></a>
           <br />

@@ -18,9 +18,9 @@ const IndexPage = () => (
         I developed a deep appreciation for culture early on in my life through the amazing memories I made in each city. I moved to Waterloo, 
         ON in 2017 to follow my passion for technology and design as an aspiring engineer.</p>
 
-      <p>Over the last year, I’ve picked up invaluable technical and soft skills through internships and worked on projects related to computer vision 
-        and machine learning. I’ve been an active follower of all things AI and if you wish to discuss Elon Musk’s ominous take on the future of artificial intelligence, 
-        you can contact me <a target='_blank' style = {{ textDecoration: 'underline', color:'black'}} alt='Mail' href='mailto:s34bhatt@uwaterloo.ca'>here</a>. </p>
+      <p>Over the last year, I’ve developed a keen interest in backend engineering, distributed systems and blockchain technologies. In Winter 2021, I had the opportunity to work
+       at <Link to="/work-experience" style = {{ textDecoration: 'underline', color:'black'}}>Dapper Labs</Link> - the team behind CryptoKitties and NBA TopShot - as a backend engineer co-op and gained invaluable experience in working with
+        a microservices-based architecture for stability and performance during a period of hyper-growth. I’ve been an active follower of all things NFTs and if you wish to discuss the future of the metaverse, you can contact me <a target='_blank' style = {{ textDecoration: 'underline', color:'black'}} alt='Mail' href='mailto:s34bhatt@uwaterloo.ca'>here</a>! </p>
     </div>
   </Layout>
 )
