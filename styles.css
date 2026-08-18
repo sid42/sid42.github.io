@@ -39,7 +39,7 @@
 }
 
 :root {
-  --text: rgba(0, 0, 0, 0.84);
+  --text: rgba(0, 0, 0, 0.62);
   --line: rgba(0, 0, 0, 0.14);
   --chip: rgba(0, 0, 0, 0.04);
 }
@@ -57,7 +57,7 @@ html {
 body {
   margin: 0;
   background: #fff;
-  color: rgba(0, 0, 0, 0.8);
+  color: var(--text);
   font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -71,6 +71,7 @@ a {
 p {
   margin: 0 0 0.45rem;
   font-weight: 400;
+  color: rgba(0, 0, 0, 0.62);
 }
 
 h1,
@@ -79,7 +80,8 @@ h3 {
   margin: 0 0 0.45rem;
   line-height: 1.1;
   font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
+  color: #000;
 }
 
 h1 {
@@ -123,12 +125,14 @@ h3 {
 .profile-name,
 .site-nav a {
   font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
+  color: #000;
 }
 
 .profile-meta {
   font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 400;
+  color: rgba(0, 0, 0, 0.62);
 }
 
 .profile-name {
@@ -219,6 +223,10 @@ h3 {
   width: 70%;
 }
 
+.experience-copy p {
+  font-size: 0.92rem;
+}
+
 .company-link {
   display: inline-block;
 }
@@ -238,50 +246,66 @@ h3 {
 }
 
 .company-name {
-  font-weight: 600;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+  color: #000;
 }
 
 .we-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   line-height: 1.2;
 }
 
 .we-meta-row {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.28rem;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.62);
+  margin: 0;
 }
 
-.we-meta-icon {
-  width: 14px;
-  height: 14px;
-  fill: currentColor;
-  flex: 0 0 auto;
+.we-meta-row + .we-meta-row {
+  margin-top: 0.08rem;
 }
 
 .skill-chips {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 0.35rem;
-  margin-top: 0.35rem;
+  gap: 0.3rem;
+  margin-top: 0.55rem;
 }
 
 .skill-chip {
-  padding: 0.2rem;
+  padding: 0.18rem 0.35rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 2px;
   background: transparent;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1;
+  color: rgba(0, 0, 0, 0.62);
 }
 
 .experience-copy ul {
   margin: 0;
-  padding-left: 1.45rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 .experience-copy li {
+  position: relative;
   margin-bottom: 0.7rem;
+  padding-left: 1rem;
+}
+
+.experience-copy li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 @media (max-width: 768px) {
@@ -338,8 +362,13 @@ h3 {
   }
 
   .skill-chips,
+  .we-meta,
   .we-meta-row {
     justify-content: center;
+  }
+
+  .we-meta {
+    align-items: center;
   }
 
   .experience-copy {
