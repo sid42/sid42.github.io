@@ -55,6 +55,7 @@ html {
 }
 
 body {
+  position: relative;
   margin: 0;
   background: #fff;
   color: var(--text);
