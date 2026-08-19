@@ -166,6 +166,7 @@ h3 {
 .social-links a {
   display: inline-flex;
   padding: 0.1rem 0.2rem;
+  color: #000;
 }
 
 .social-links svg {
